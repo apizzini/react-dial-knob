@@ -1,6 +1,4 @@
 node_modules
-dist/*
-!dist/.gitkeep
 coverage/*
 !coverage/.gitkeep
 storybook-static

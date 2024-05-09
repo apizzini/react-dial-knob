@@ -102,17 +102,5 @@
   "dependencies": {},
   "peerDependencies": {
     "react": ">=17.0.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run format&&npm run lint",
-      "pre-push": "npm run test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   }
 }
